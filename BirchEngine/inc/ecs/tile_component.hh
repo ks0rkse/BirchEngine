@@ -1,9 +1,9 @@
 #pragma once
 
-#include "ECS.h"
+#include "ecs.hh"
 #include "SDL.h"
-#include "../Vector2D.h"
-#include "../Game.h"
+#include "../vector2D.hh"
+#include "../game.hh"
 
 class TileComponent : public Component
 {

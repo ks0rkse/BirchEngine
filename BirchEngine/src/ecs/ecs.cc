@@ -1,4 +1,4 @@
-#include "../../inc/ecs/ECS.h"
+#include "../../inc/ecs/ecs.hh"
 
 void Entity::addGroup(Group mGroup)
 {

@@ -1,9 +1,9 @@
 #pragma once
 
-#include "Components.h"
+#include "components.hh"
 #include "SDL.h"
-#include "../TextureManager.h"
-#include "Animation.h"
+#include "../texture_manager.hh"
+#include "animation.hh"
 #include <map>
 
 

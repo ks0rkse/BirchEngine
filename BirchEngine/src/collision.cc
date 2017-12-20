@@ -1,4 +1,4 @@
-#include "../inc/Collision.h"
+#include "../inc/collision.hh"
 #include "ECS\ColliderComponent.h"
 
 bool Collision::AABB(const SDL_Rect& recA, const SDL_Rect& recB)
