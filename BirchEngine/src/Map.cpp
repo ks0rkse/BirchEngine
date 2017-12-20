@@ -1,5 +1,5 @@
-#include "Map.h"
-#include "Game.h"
+#include "../inc/Map.h"
+#include "../inc/Game.h"
 #include <fstream>
 
 Map::Map()

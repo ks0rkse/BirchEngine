@@ -8,6 +8,6 @@ add_executable(${PROJECT_NAME} ${SRC_DIR}
         src/ECS/spritecomponent.cc
         src/ECS/tilecomponent.cc
         src/ECS/transformcomponent.cc
-        inc/ECS/animation.hh)
+        inc/ecs/animation.hh)
 
 target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARIES} ${SDL2_IMAGE_LIBRARIES})
