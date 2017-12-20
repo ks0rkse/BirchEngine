@@ -14,30 +14,12 @@ public:
 
 	int speed = 3;
 
-	TransformComponent()
-	{
-		position.Zero();
-	}
+	TransformComponent();
 
-	TransformComponent(float x, float y)
-	{
-		position.Zero();
-	}
+	TransformComponent(float x, float y);
 
-	TransformComponent(float x, float y, int sc)
-	{
-		position.x = x;
-		position.y = y;
-		scale = sc;
-	}
+	TransformComponent(float x, float y, int sc);
 
-	void init() override
-	{
-		velocity.Zero();
-	}
-	void update() override
-	{
-		position.x += velocity.x * speed;  
-		position.y += velocity.y * speed;
-	}
+	void init() override;
+	void update() override;
 };

@@ -1,7 +1,8 @@
 #pragma once
 
-#include "ecs.hh"
+
 #include "SDL.h"
+#include "ecs.hh"
 #include "../vector2D.hh"
 #include "../game.hh"
 
