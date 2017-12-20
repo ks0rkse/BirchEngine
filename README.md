@@ -18,3 +18,4 @@ If you would like to contribute any ideas for this codebase then you can contact
 www.youtube.com/carlbirch or
 www.facebook.com/gamesfromscratch
 
+CMake version
