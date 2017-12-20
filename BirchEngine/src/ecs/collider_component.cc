@@ -1,4 +1,5 @@
-#include "collider_component.hh"
+#include "ecs/collider_component.hh"
+#include "game.hh"
 
 void ColliderComponent::update() {
     collider.x = static_cast<int>(transform->position.x);

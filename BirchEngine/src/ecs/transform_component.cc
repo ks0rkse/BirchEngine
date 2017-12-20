@@ -1,4 +1,4 @@
-#include "transform_component.hh"
+#include "ecs/transform_component.hh"
 
 TransformComponent::TransformComponent() {
     position.Zero();

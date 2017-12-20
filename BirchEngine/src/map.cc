@@ -1,14 +1,9 @@
-#include "../inc/map.hh"
-#include "../inc/game.hh"
 #include <fstream>
+#include "map.hh"
+#include "game.hh"
 
-Map::Map()
-{
-}
-
-Map::~Map()
-{
-}
+Map::Map() = default;
+Map::~Map() = default;
 
 void Map::LoadMap(std::string path, int sizeX, int sizeY)
 {

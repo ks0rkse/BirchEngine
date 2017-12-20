@@ -1,4 +1,5 @@
-#include "keyboard_controller.hh"
+#include "ecs/keyboard_controller.hh"
+#include "game.hh"
 
 void KeyboardController::init() {
     transform = &entity->getComponent<TransformComponent>();

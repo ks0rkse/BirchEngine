@@ -1,9 +1,9 @@
 #pragma once
 
 #include <string>
-#include <SDL.h>
-
-#include "components.hh"
+#include <SDL2/SDL.h>
+#include "ecs.hh"
+#include "transform_component.hh"
 
 class ColliderComponent : public Component
 {

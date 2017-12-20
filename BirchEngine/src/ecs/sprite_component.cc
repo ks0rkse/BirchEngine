@@ -1,4 +1,5 @@
-#include "sprite_component.hh"
+#include "ecs/sprite_component.hh"
+#include "texture_manager.hh"
 
 SpriteComponent::SpriteComponent(const char *path) {
     setTex(path);
@@ -32,7 +33,6 @@ void SpriteComponent::init() {
 }
 
 void SpriteComponent::update() {
-
     if (animated)
     {
         srcRect.x = srcRect.w * static_cast<int>((SDL_GetTicks() / speed) % frames);

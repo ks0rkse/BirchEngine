@@ -1,4 +1,4 @@
-#include "../inc/vector2D.hh"
+#include "vector2D.hh"
 
 Vector2D::Vector2D()
 {

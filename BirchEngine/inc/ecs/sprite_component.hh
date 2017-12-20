@@ -1,27 +1,16 @@
 #pragma once
 
-#include "SDL.h"
+#include <SDL2/SDL.h>
 #include <map>
-#include "components.hh"
-#include "../texture_manager.hh"
+#include "ecs.hh"
 #include "animation.hh"
+#include "transform_component.hh"
 
 class SpriteComponent : public Component
 {
-private:
-	TransformComponent *transform;
-	SDL_Texture *texture;
-	SDL_Rect srcRect, destRect;
-
-	bool animated = false;
-	int frames = 0;
-	int speed = 100;
-
 public:
-
 	int animIndex = 0;
 	std::map<const char*, Animation> animations;
-
 	SDL_RendererFlip spriteFlip = SDL_FLIP_NONE;
 
 	SpriteComponent() = default;
@@ -36,4 +25,13 @@ public:
 	void draw() override;
 
 	void Play(const char* animName);
+
+private:
+    TransformComponent *transform;
+    SDL_Texture *texture;
+    SDL_Rect srcRect, destRect;
+
+    bool animated = false;
+    int frames = 0;
+    int speed = 100;
 };

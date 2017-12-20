@@ -1,9 +1,7 @@
-#include "../inc/game.hh"
-#include "../inc/texture_manager.hh"
-#include "../inc/map.hh"
-#include "../Src/ECS/Components.h"
-#include "../inc/vector2D.hh"
-#include "../inc/collision.hh"
+#include "game.hh"
+#include "map.hh"
+#include "ecs/components.hh"
+#include "collision.hh"
 
 Manager manager;
 Map* map;

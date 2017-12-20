@@ -1,10 +1,10 @@
 #pragma once
+
 #include <string>
 
 class Map 
 {
 public:
-	 
 	Map();
 	~Map();
 
